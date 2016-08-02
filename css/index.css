@@ -1,0 +1,290 @@
+
+ol,ul,p,h1,h2,h3,h4,li,dt,dd{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+
+}
+
+a:link {
+	color: rgb(102, 102, 102); 
+	text-decoration: none;
+}
+a:visited {
+	color: rgb(102, 102, 102); 
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(238, 0, 0); 
+	text-decoration: underline;
+}
+
+.lt {
+	float: left;
+}
+.rt {
+	float: right;
+}
+
+.dn {
+	display: none;
+}
+.di {
+	display: inline;
+}
+.db {
+	display: block;
+}
+.dib {
+	display: inline-block;
+}
+
+.b {
+	font-weight: bold;
+}
+.tc {
+	text-align: center;
+}
+.tr {
+	text-align: right;
+}
+.tl {
+	text-align: left;
+}
+
+.fw {
+	color: rgb(255, 255, 255);
+}
+
+
+.bgwh {
+	background: rgb(255, 255, 255);
+}
+.rel {
+	position: relative;
+}
+.abs {
+	position: absolute;
+}
+.flx {
+	overflow: hidden; -ms-zoom: 1;
+}
+.fix {
+	-ms-zoom: 1;
+}
+.fix::after {
+	clear: both; display: table; content: "";
+}
+.auto {
+	margin-right: auto;
+	margin-left: auto;
+}
+.ell {
+	text-overflow: ellipsis;
+	overflow: hidden; 
+	white-space: nowrap; 
+	-ms-text-overflow: ellipsis;
+}
+
+.wp1250 {
+	width: 1250px;
+}
+
+.wp960 {
+	width: 960px;
+}
+.mt30 {
+	margin-top: 30px;
+}
+.art_box {
+	padding: 15px 19px;
+	border: 1px solid rgb(235, 235, 235);
+}
+.artist_info {
+	margin-top: 12px;
+}
+.artist_first dt {
+	height: 210px;
+}
+.artist_first {
+	width: 210px;
+}
+.artist_pic img {
+	display: block;
+}
+.artist_pic .abs {
+	
+	left: 0px;
+	width: 210px;
+	height: 36px;
+	bottom: 0px;
+	color: rgb(255, 255, 255);
+	line-height: 36px;
+	text-indent: 66px;
+	font-weight: 900;
+	display: block;
+}
+.artist_pic .btn {
+	
+	margin: 7px 10px 0px 0px;
+	width: 20px;
+	height: 20px;
+	float: right;
+	cursor: pointer;
+	_margin: 7px 5px 0 0;
+}
+
+.art_d1 {
+	line-height: 30px;
+	margin-top: 6px;
+	border-bottom-color: rgb(247, 247, 247);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.artist_list {
+	width: 700px;
+	height: 330px;
+	overflow: hidden;
+	padding-left: 5px;
+	_margin-left: -20px;
+	_width: 720px;
+}
+.artist_list li {
+	margin: 0px 0px 30px 20px;
+	width: 120px;
+	float: left;
+}
+.artist_list .artist_pic {
+	width: 120px;
+	height: 120px;
+	display: block;
+}
+.artist_list .artist_pic .abs {
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 12px;
+	font-weight: 400;
+}
+.artist_list li .artist_pic .btn {
+	margin: 5px 8px 0px 0px;
+	_margin: -25px 4px 0 0;
+}
+.artist_list li strong a {
+	background: rgb(245, 245, 245);
+	width: 120px;
+	text-align: center;
+	line-height: 22px;
+	font-weight: 400;
+	display: block;
+}
+.artist_list li strong a:hover {
+	color: rgb(60, 66, 81);
+	font-weight: 900;
+}
+
+.ot_box {
+	padding: 10px 20px 19px 18px;
+	border: 1px solid rgb(235, 235, 235);
+	border-image: none;
+}
+.album_main {
+	width: 650px;
+}
+.share_main {
+	width: 289px;
+}
+.album_tit {
+	border-bottom-color: rgb(97, 105, 125);
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+.album_main .album_tit {
+	width: 630px;
+}
+.album_tit ul li {
+	float: left;
+	_overflow: hidden;
+	_zoom: 1;
+}
+.album_tit ul li a {
+	padding: 0px 25px;
+	height: 28px;
+	line-height: 28px;
+	display: block;
+	_float: left;
+}
+.album_tit ul li.album_tit_clo a:link {
+	background: rgb(97, 105, 125);
+	color: rgb(255, 255, 255);
+}
+.album_tit ul li.album_tit_clo a:visited {
+	background: rgb(97, 105, 125);
+	color: rgb(255, 255, 255);
+}
+.a_g_list dl {
+	width: 130px;
+	margin-top: 20px;
+	float: left;
+}
+.a_g_list dl dt {
+	padding: 1px 0px 0px 1px;
+}
+.a_g_list dl dt .rel {
+	width: 110px;
+	height: 110px;
+	display: block;
+}
+.a_g_list dl dd {
+	width: 110px;
+	height: 36px;
+	margin-top: 10px;
+}
+.album_bg {
+	left: 0px;
+	top: 0px;
+	width: 126px;
+	height: 120px;
+	_display: none;
+}
+
+.album_play_btn {
+	background-position: -180px 0px;
+	margin: 5px 10px 0px;
+	width: 18px;
+	height: 13px;
+}
+
+.ot_list li {
+	padding: 10px 10px 10px 0px;
+	vertical-align: middle;
+	border-bottom-color: rgb(247, 247, 247);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.ot_list li:hover {
+	background: rgb(245, 245, 245);
+	border-bottom-color: rgb(235, 235, 235);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.ot_list li:hover .ell {
+	color: rgb(60, 60, 70);
+	font-weight: 900;
+}
+.ot_list li .ot_pic img {
+	display: block;
+}
+.ot_ne {
+	margin: 5px 0px 0px 10px;
+	width: 180px;
+}
+.ot_ne .ell {
+	width: 180px;
+	margin-bottom: 5px;
+	display: block;
+}
+.ot_btn {
+	margin-top: 20px;
+}
